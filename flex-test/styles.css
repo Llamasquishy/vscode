@@ -1,0 +1,38 @@
+html {
+    all: unset;
+    font-size: 16px;
+}
+
+body {
+    all: unset;
+    background-color: rgb(168, 168, 168);
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.flexbox div {
+    flex: 1 1 40%;
+    border: 2px solid rgb(94, 94, 94);
+    padding: 5rem 2rem;
+    margin: 1rem 1rem;
+    font-size: 2rem;
+}
+
+.flexbox div:hover {
+    background-color: rgb(145, 145, 145);
+}
